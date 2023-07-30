@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.order{
+    width: 100;
+    margin: auto;
+    padding: 10px;
+    height: 100vh;
+    background-image:url(images/pexels-kaboompics-com-6105.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;;
+}
+h1{
+    color: rgb(89, 0, 255);
+    padding: 20px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/order.css">
+  <title>Order Form</title>
+</head>
+ <body>
+    <div class="order">
+<h1>Sign-up</h1>
+<action="index.php" method="post">
+<label for="username">USERNAME:</label>
+<input type="Text" id="username">
+<br>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="name@gmail.com" required>
+<br>
+<br>
+<label for="password">PASSWORD:</label>
+<input type="password" name="PASSWORD" id="password">
+<br>
+<br>
+<label for="tittle">MR</label>
+<input type="radio" name="tittle" id="tittle">
+<label for="tittle">MRS</label>
+<input type="radio" name="tittle" id="tittle">
+<label for="tittle">MISS</label>
+<input type="radio" name="tittle" id="tittle">
+<br>
+<br>
+<label for="position">Type of shoes</label>
+<select name="position" id="position">
+    <option>Jordans </option>
+     <option>Air-max</option>
+      <option>Converse</option>
+    <option>Merell</option>
+</select>
+<br>
+<br>
+<label for="quantity">size:</label>
+<input type="number" name="numbers" id="quantity" min="1" max="15">
+<br>
+<br>
+<label for="quantity">How many pair:</label>
+<input type="number" name="numbers" id="quantity" min="1" max="99">
+<br>
+<br>
+<label for="bday">Date to Deliver:</label>
+<input type="date" name="Birthdate" id="bday">
+<br>
+<br>
+<label for="comment">what should we upgrade on our service:</label>
+<textarea name="comments" id="comment" cols="25" rows="12"></textarea>
+<br>
+<br>
+<label for="status">Confirm</label>
+<input type="checkbox" name="status" id="status">
+<br>
+<br>
+<input type="reset" name="">
+<br>
+<br>
+<input type="submit" style="font-size:20px;border-width:;" name="">
+</form>
+</body>
+</div>
+ </html>
