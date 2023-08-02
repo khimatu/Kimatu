@@ -5,11 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 .xbs{
-    width: 100;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
     background-image: linear-gradient(rgba(129, 153, 147, 0.39),rgba(101, 17, 109, 0.336)),url(images/pexels-terrance-barksdale-11924647.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .navbar{
   width: 85%;
